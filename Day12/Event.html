@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div onmouseover="move(this)" onmouseout="out(this)" style="background-color: bisque; font-size: 22px; display: inline-block;">Mouse Over Me</div>
+    <script>
+        function move(ob){
+            ob.innerHTML="Thank You"
+        }
+        function out(ob)
+        {
+            ob.innerHTML="Mouse over me"
+        }
+    </script>
+    <div class="sec" onmouseup="up(this)" onmousedown="down(this)" style="background-color: chocolate;font-size: 34px; display: inline-block;">Mouse over me</div>
+    <script>
+        function up(op)
+        {
+            op.innerHTML="Sandip Yadav"
+        }
+        function down(op)
+        {
+            op.innerHTML ="Name"
+        }
+    </script>
+
+</body>
+</html>
